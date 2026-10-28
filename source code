@@ -1,0 +1,9 @@
+//输出
+#include <iostream> //预处理指令，并使用iostream库。
+
+int main() //定义main函数
+{  //main函数开始 
+	std::cout<<"hello world"<<std::endl;  //main函数的第一条语句。std::cout代表字符输出。 「?」表示将右边的内容发送给左边的对象，在这里表示输出到命令行中。 std::endl表示换行
+	return 0;  //返回语句。程序执行完成后，该语句告诉操作系统程序已成功执行。 在大部分操作系统中，返回「0」代表程序执行成功
+ }   //main函数结束
+  
